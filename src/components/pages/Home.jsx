@@ -21,6 +21,7 @@ export default function Home({handleLogin}) {
                     src="/Dashboard-Hero.png" 
                     alt="Imagen heroes home" />
             </div>
+            <p>Github3</p>
 
             {/* DIV DERECHA BOTON */}
             <div className='flex flex-col items-end justify-end mb-[10%]'>

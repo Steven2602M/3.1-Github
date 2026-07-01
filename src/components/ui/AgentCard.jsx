@@ -12,6 +12,9 @@ export default function AgentCard({agent}) {
                 <p className='text-ValoRed'>{agent.role.displayName}</p>
             </div>
             <p className='mt-3'>Abilities</p>
+            <p className='mt-4 text-ValoRed'>Github</p>
+            <p className='mt-2'text-ValoRed>Cambio 2</p>
+           
             <div className='flex mt-3 gap-2'>
                 {agent.abilities.map((ability, index) => (
                     <div key={index} className='flex h-10 bg-ValoBlack rounded p-1 '>

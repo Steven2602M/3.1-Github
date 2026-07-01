@@ -76,6 +76,7 @@ export default function AgentDetail() {
 
           <div className='flex flex-col gap-4'>
             <h2 className='text-4xl'>Abilities</h2>
+            <p>github2</p>
             
             <div className='flex gap-4'>
               {agent.abilities.map((ability, index) => (
