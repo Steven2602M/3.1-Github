@@ -16,6 +16,7 @@ export default function NotFound() {
             <img className='relative z-1' src="/404-Hero.png" alt="" />
             <img className='absolute' src="/V_Logotype_Simple.png" alt="" />
         </div>
+        <p>github4</p>
     </main>
   )
 }
